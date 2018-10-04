@@ -1,7 +1,7 @@
 
 #main{
    border: 2px solid white;
-   background-color: orange
+   background-color: #ff8c1a
 }
 
 
@@ -11,48 +11,57 @@ body{
 }
 
 input[type=text]{
-	width: 30%;
+	width: 15%;
     padding: 10px 10px;
-    margin: 20px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    margin-left: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 
 .imge{
-    margin-left: 300px;
+    margin-left: 450px;
     width: 50%;
     float:auto;
 
 }
+.img1{
+    margin-left: 75px;
+    width: 30%;
+    float:auto;
+
+}
+
 .btn{
-     margin-left: 75px;
-    width: 15%;
+     margin-left: 15px;
+     width: 10%;
 
 }
 
 input[type=password]{
-	width: 30%;
+	width: 15%;
     padding: 10px 10px;
     margin: 20px 0;
     display: inline-block;
     border: 1px solid #ccc;
-   
     box-sizing: border-box;
-    margin-left:200px;
+    
 }
 
 button {
-    background-color: #4CAF50;
-    color:white;
-    padding: 10px 10px;
-    margin: 10px 0;
+     background-color: #4CAF50;
     border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
     cursor: pointer;
-    width: 15%;
-    margin-left:200px
 
 }
 
@@ -63,14 +72,6 @@ button:hover {
 img{
      margin-left: 240px;
 }
-/*label {
-    
-   
-    float:center;
-    width:113px;
-    margin-left:200px;
-
-}*/
 
 input[type=label] {
     float:center;
